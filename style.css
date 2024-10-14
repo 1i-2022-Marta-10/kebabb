@@ -6,10 +6,19 @@
 	p {
 	text-align: center;
 }
-#bannerimage {
-	width: 100%;
-	background-image: url(kebab.jpg);
-	height: 400px;
-	background-color: green;
-	background-position: center;
-  }
+.banner{
+	background-image: url(kebab.jpg)
+}
+.banner-content{
+	padding: 16px;
+	max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+.banner-text{
+	flex-grow: 1;
+	line-height: 2;
+	font-family: 'Quicksand', sans-serif;
+	
+}
