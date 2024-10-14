@@ -7,7 +7,7 @@
 	text-align: center;
 }
 .banner{
-	background-image: url(kebab.jpg)
+	background-color: rgb(230,188,99);
 }
 .banner-content{
 	padding: 16px;
