@@ -83,6 +83,80 @@ body{
 	font-size: 26px;
 	color:#4d371e;
 }
+.bannerr1 {
+	padding: 10px;
+	background-image: url('tacos.jfif');
+    background-size: cover; 
+    background-position: center; 
+    height: 300px; 
+    color: white; 
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    font-family: Arial, sans-serif;
+} 
+.button-containerr1 {
+    text-align: center; 
+    margin-top: 50px;
+}
+.my-buttonn1 {
+    background-color: #cc6930; 
+    color: #5e340d; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 4px; 
+	
+}
+.cot {
+	background-color: #e9d9b1;
+	font-size: 26px;
+	color:#4d371e
+}
+.bannerr2 {
+	padding: 12px;
+	background-image: url('tacossy.jpeg');
+    background-size: cover; 
+    background-position: center; 
+    height: 300px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    font-family: Arial, sans-serif;
+} 
+.menu2{
+	text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+	list-style-position: inside;
+}
+.dgt {
+	font-size: 26px;
+	color:#4d371e;
+}
+.button-containerr2 {
+    text-align: center; 
+    margin-top: 50px;
+}
+.my-buttonn2 {
+    background-color: #cc6930; 
+    color: #5e340d; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 4px; 
+	
+}
 h1{
 	text-align: center;
 }
