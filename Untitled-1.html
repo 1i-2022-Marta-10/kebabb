@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+<html lang="pl"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Document</title> 
+    </head> 
+    <body> 
+        <script> 
+            let tablica = []; 
+            let ilosczer = 0; 
+            while (true) { 
+                let liczba = prompt("podaj liczbe (kliknij anuluj aby zakonczyc):"); 
+                if (liczba === null) break; liczba = Number(liczba); 
+                if (!isNaN(liczba)) { 
+                    tablica.push(liczba); 
+                    if (liczba === 0) ilosczer++; 
+                    } else { 
+                        alert('to nie jest liczba, wpisz liczbe'); } 
+                        } 
+        let nieparzyste = tablica.filter(num => num % 2 !== 0); 
+        let parzyste = tablica.filter(num => num % 2 === 0); 
+        let wynik = nieparzyste.concat(parzyste); 
+                        
+                        document.write('twoja tablica: ' + wynik.join(", ") + "<br>"); 
+                        document.write('ilosc zer: ' + ilosczer); 
+        </script> 
+    </body> 
+</html>
